@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & configs
+.env
+*.local
+
+# Common build / dependency dirs
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+venv/
+.venv/
+target/
+
+# Swift build output
+.build/
+*.xcodeproj
+*.xcworkspace
+DerivedData/
